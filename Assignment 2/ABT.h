@@ -5,33 +5,20 @@ struct node {
 	int data;
 	struct node *next;
 };
-
-void reverseList(struct node *header)
-{
+void reverseList(struct node *h) {
 	struct node *ptr, *after, *prev, *last;
-
-	prev= (struct node*)malloc (sizeof(struct node));
-	prev=header->next;
-
-	last= (struct node*)malloc (sizeof(struct node));
+	prev=h->next;
 	last=prev;
-
-	ptr= (struct node*)malloc (sizeof(struct node));
 	ptr=prev->next;
-
-	after= (struct node*)malloc (sizeof(struct node));
-
 	while(ptr->next!=NULL)
 	{
 		after=ptr->next;
 		ptr->next=prev;
 		prev=ptr;
 		ptr=after;
-
 	}
-
 	ptr->next=prev;
-	header->next=ptr;
+	h->next=ptr;
 	last->next=NULL;
 }
 
