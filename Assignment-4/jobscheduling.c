@@ -3,7 +3,7 @@
 #include<stdlib.h>
 
 struct queue{
-	int arr[10];
+	int arr[5];
 	int size;
 	int f,r;
 };
@@ -58,7 +58,7 @@ void display(struct queue *Q)
 	else
 	{
 		printf("\nJob in a Queue are :");
-		while(i<=Q->r)
+		while(i!=Q->r)
 		{
 			printf("%d ", Q->arr[i]);
 			i=(i+1)%Q->size;
@@ -70,21 +70,15 @@ int main(){
 	struct queue *Q=(struct queue *) malloc(sizeof(struct queue));
 	printf("\n");
 	printf("\n");
-	Q->size = 10;
-	printf("Inserting : \n");
+	Q->size = 5;
+	printf("Inserting : ");
+	enqueue(Q,1);
+	enqueue(Q,2);
 	enqueue(Q,3);
+	enqueue(Q,4);
+	enqueue(Q,5);
+	enqueue(Q,6);
 	display(Q);
-	enqueue(Q,3);
-	display(Q);
-	enqueue(Q,3);
-	display(Q);
-	enqueue(Q,3);
-	display(Q);
-	enqueue(Q,13);
-	display(Q);
-	dequeue(Q);
-	dequeue(Q);
-	dequeue(Q);
 	display(Q);
 	return 0;
 }
