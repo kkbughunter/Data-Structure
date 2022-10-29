@@ -1,78 +1,67 @@
 #include<stdio.h>
 #include<stdlib.h>
-
-struct queue{
-	int arr[3];
-	int size;
-	int f,r;
+#include<string.h>
+struct node{
+	char job[4];
+	int data;
+	struct node *next;
 };
-
-void createQueue(struct queue *Q,int lim){
-	Q->size = lim;
-	Q->f = -1;
-	Q->r = -1;
-}
-
-void enqueue( struct queue *Q, int info){
-	if (isFill(Q))
-		printf("full");
-	else{
-		Q->r++;
-		Q->arr[Q->r] = info;
+int size,max;
+struct node *r = NULL;
+struct node *f = NULL;
+void enqueue(char *j, int ele)
+{
+	struct node *temp = (struct node *) malloc(sizeof(struct node));
+	temp->data=ele;
+	strcpy(temp->job,j);
+	temp->next = NULL;
+	if(f==NULL && r==NULL){
+		f = temp;
+		r = temp;
+		temp->next = temp;
+		max = ele;
 	}
-}
-
-int isFill(struct queue *Q){
-	if(Q->r == Q->size-1)
-		return 1;
-	else return 0;
-}
-
-int dequeue(struct queue *Q){
-	if(isEmpty(Q))
-		return -1;
-	else{
-		Q->f++;
-		return Q->arr[Q->f];
+	else {
+		temp->next = f;
+		r->next = temp;
+		r = temp;
+		if(max < ele) max = ele;
 	}
+	size++;
+
 }
 
-int isEmpty(struct queue *Q){
-	if(Q->f == Q->r)
-		return 1;
-	else return 0;
+void display(){
+	struct node *temp = f;
+	int s = size;
+	printf("Queue data : ");
+	while(s--){
+		printf("(%s,%d) ",temp->job,temp->data);
+		temp = temp->next;
+	}
+	printf("\n");
 }
 
-void display(struct queue *Q){
-	for(int i=Q->f+1; i<Q->r+1; i++)
-		printf("%d ",Q->arr[i]);
+void dequeue(){
+	struct node *a = f;
+	f = f->next;
+	r->next = f;
+	size--;
+	printf("dequeued data : (%s,%d)\n",a->job,a->data);
 }
-int main(){
-	int de;
-	struct queue *Q=(struct queue *) malloc(sizeof(struct queue));
-	printf("\n");
-	printf("\n");
-	de =dequeue(Q);
-	(de==-1)?printf("Empty\n"):printf("Dequeue value : %d \n",de);
-	createQueue(Q,3);
-	printf("Inserting : \n");
-	enqueue(Q,2);
-	display(Q);
-	printf("\n");
-	enqueue(Q,13);
-	display(Q);
-	printf("\n");
-	enqueue(Q,5);
-	display(Q);
-	printf("\n");
-	de =dequeue(Q);
-	(de==-1)?printf("Empty\n"):printf("Dequeue value : %d \n",de);
-	display(Q);
-	printf("\n");
-	de =dequeue(Q);
-	(de==-1)?printf("Empty\n"):printf("Dequeue value : %d \n",de);
-	display(Q);
-	printf("\n");
-	printf("\n");
+
+int main()
+{
+	struct node *f = (struct node *) malloc(sizeof(struct node));
+
+	enqueue("J1",2);
+	display();
+	enqueue("J1",15); 
+	display();
+	enqueue("J1",5); 
+	display();
+	dequeue();
+	display();
+	printf("Max value is : %d\n\n ",max);
 	return 0;
 }
