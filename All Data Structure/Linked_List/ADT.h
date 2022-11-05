@@ -6,6 +6,15 @@ struct node {
 	struct node *next;
 };
 
+void add(struct node* head, int data){
+    struct node* newNode =(struct node*) malloc(sizeof(struct node));
+    newNode->data  = data;
+    newNode->next = NULL;
+	
+    while(head->next != NULL)
+       head = head->next;
+    head->next = newNode;
+}
 
 void insert(struct node *header,int data)
 {
