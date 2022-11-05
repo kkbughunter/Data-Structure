@@ -8,11 +8,12 @@ int main(void) {
 	header=(struct node *) malloc(sizeof(struct node ));
 	header->next=NULL;
 
-	insert(header,10);
+	add(header,-23);
+	add(header,10);
 	insert(header,20);
-	insert(header,40);
+	add(header,40);
 	insert(header,50);
-	insert(header,30);
+	add(header,30);
 	display(header);
 	sortL(header);
 	display(header);
