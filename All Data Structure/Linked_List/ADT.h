@@ -79,10 +79,10 @@ int length(struct node *header)
 }
 
 void sortL(struct node *head){
-	int i=0, j=0, len = length(head);
+	int i=0, j=0;
 	struct node *temp1=head->next, *temp = head->next;
-	for(i=0; i<len; i++){
-		for(j=0; j<len; j++){
+	while(temp1 != NULL){
+		while(temp != NULL){
 			if(temp1->data < temp->data){
 				int T = temp1->data;
 				temp1->data = temp->data;
