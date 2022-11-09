@@ -26,11 +26,16 @@ void insert(struct node *header,int data)
 	temp->data = data;
 }
 
-void delet(struct node *header, int key)
+void delete(struct node *header, int key)
 {
 
 	struct node *ptr = header->next,*temp;
 	temp = header->next;
+
+	if(temp->data == key) {
+		header->next = header->next->next;
+		return;
+	}
 	while(ptr!=NULL){
 		if(ptr->data == key){
 			temp->next=ptr->next;
