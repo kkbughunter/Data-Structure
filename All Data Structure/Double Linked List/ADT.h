@@ -70,3 +70,16 @@ void delete(struct node *header, int num)
         }
     }
 }
+
+void reverse(struct node *head)
+{
+    struct node *temp = NULL, *current = head->lptr;
+    while (current != NULL) {
+        temp = current->lptr;
+        current->lptr = current->rptr;
+        current->rptr = temp;
+        current = current->lptr;
+    }
+    if (temp != NULL)
+        head = temp->lptr;
+}
