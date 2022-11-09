@@ -1,50 +1,72 @@
-#include<stdio.h>
-#include<stdlib.h>
-
-struct node{
+#include <stdio.h>
+#include <stdlib.h>
+struct node
+{
     int data;
-    struct node *rptr, *lptr;
+    struct node *lptr,*rptr;
 };
-
-void insert(struct node *header, int data){
-    struct node *temp = (struct node *) malloc(sizeof(struct node));
-    temp->data = data;
-    if(header->rptr == NULL){
-        temp->rptr = header->rptr;
-        header->rptr = temp;
-        temp->lptr = header;
-    }
-    else{
-        struct node *p = header->rptr;
-        temp->rptr = p;
-        p->lptr = temp;
-        header->rptr = temp;
-    }
-    
+struct node* createNode(int x)
+{
+    struct node *temp;
+    temp=(struct node*)malloc(sizeof(struct node));
+    temp->data=x;
+    return temp;
 }
-
-void display(struct node *h){
-    struct node *ptr = h->rptr;
-    while (ptr != NULL)
+void insert(struct node *header, int x)
+{
+    struct node *temp,*p;
+    temp=createNode(x);
+    p=header->rptr;
+    temp->rptr=header->rptr;
+    header->rptr=temp; 
+    temp->lptr=header;
+    if(p!=NULL)
+     p->lptr=temp;
+}
+void display(struct node *header)
+{
+    struct node *ptr,*end;
+    ptr=header->rptr;
+    while(ptr!=NULL)
     {
         printf("%d ",ptr->data);
-        ptr = ptr->rptr;
-    }printf("\n");
+        end=ptr;
+        ptr=ptr->rptr;
+    }
+    printf("\n");
 }
 
-void delete(struct node *h,int x){
-    struct node *ptr,*l,*r;
-    ptr = h->rptr;
-    while(ptr != NULL){
-        if(ptr->data == x){
-            l = ptr->lptr;
-            r = ptr->rptr;
-            l->rptr = r;
-            r->lptr = l;
-            free(ptr);
-            return ;
-        }
-        else ptr = ptr->rptr;
+int search(struct node *header,int key)
+{
+    struct node *ptr;
+    ptr=header->rptr;
+    while(ptr!=NULL)
+    {
+        if(ptr->data==key)
+          return ptr->data;
+        else
+         ptr=ptr->rptr;
     }
-    
+   return -1;
+}
+
+void delete(struct node *header, int num)
+{
+    struct node *ptr,*l,*r;
+    ptr=header->rptr;
+    while(ptr!=NULL)
+    {
+        if(ptr->data==num)
+        {
+           l=ptr->lptr;
+           r=ptr->rptr;
+           l->rptr=r;
+           r->lptr=l;
+           free(ptr);
+        }
+        else
+        {
+            ptr=ptr->rptr;
+        }
+    }
 }
