@@ -79,6 +79,10 @@ void deleteE(struct node *header, int num)
     {
         if(ptr->data==num)
         {
+        	if(ptr->rptr == NULL){
+        		ptr->lptr->rptr = NULL;
+        		return;
+			}
            l=ptr->lptr;
            r=ptr->rptr;
            l->rptr=r;
@@ -102,7 +106,7 @@ int main()
     insert(header,40);
     insert(header,50);
     display(header);
-    deleteE(header,50);
+    deleteE(header,10);
     insertAfter(header,30,100);
     display(header);
 
