@@ -12,7 +12,7 @@ int checkfil(struct stack *S){
 	return 0;
 }
 
-int checkemptu(struct stack *S){
+int checkempty(struct stack *S){
 	if(S->top == -1)
 		return 1;
 	return 0;
@@ -46,7 +46,7 @@ void Display(struct stack *S)
 
 void pop (struct stack *S)
 {
-	if(checkemptu(S))
+	if(checkempty(S))
 		return ;
 	else
 		S->top--;
