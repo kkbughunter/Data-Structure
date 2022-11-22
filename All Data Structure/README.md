@@ -5,6 +5,7 @@
     ->  insertPos(arrADT, pos, data); 
     ->  insertLast(arADT, data);
     ->  length(arrADT); 
+    ->  display(arrADT);
 
 ### 2.  [Simple Lnked List](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Linked_List) <br>
     ->  insert(head, data);
@@ -14,6 +15,7 @@
     ->  deletePos(head, pos); 
     ->  deleteData(head, data);
     ->  deleteLast(head); 
+    ->  display(head);
     ->  length(head);
     
 ### 3.  [Circle Linked List](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Circular%20Linked%20List) <br>
@@ -24,6 +26,7 @@
     ->  deletePos(head, pos); 
     ->  deleteData(head, data);
     ->  deleteLast(head); 
+    ->  display(head);
     ->  length(head);
     
 ### 4.  [Double Linked List](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Double%20Linked%20List) <br>
@@ -34,6 +37,7 @@
     ->  deletePos(head, pos); 
     ->  deleteData(head, data);
     ->  deleteLast(head); 
+    ->  display(head);
     ->  length(head);
 
 
