@@ -26,16 +26,16 @@ void display(struct node *h) {
     prev = h;
     printf("List In Forward: ");
     while(ptr!=NULL) {
-        printf("%c   ", ptr->data);
+        printf("%c ", ptr->data);
         prev = ptr;
         ptr = ptr->rptr;
     }
-    printf("\n\n");
-printf("list in Backward: ");
-    while(prev!=h) {
-        printf("%c   ", prev->data);
-        prev = prev->lptr;
-    }
+//     printf("\n\n");
+// printf("list in Backward: ");
+//     while(prev!=h) {
+//         printf("%c ", prev->data);
+//         prev = prev->lptr;
+//     }
     printf("\n");
 }
 
