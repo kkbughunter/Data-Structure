@@ -1,4 +1,3 @@
-// search function not completed.....
 #include <stdio.h>
 #include <stdlib.h>
 struct node {
@@ -25,33 +24,30 @@ struct node *insert(struct node *t, int data) {
   return t;
 }
 
-
-
-
-
 void inorder(struct node *t) {
-  
-  if (t->left != NULL) 
+
+  if (t->left != NULL)
     inorder(t->left);
     printf("%d, ", t->data);
-  if (t->right != NULL) 
+  if (t->right != NULL)
     inorder(t->right);
-}
-void preorder(struct node *t) {
-  printf("%d, ", t->data);
-  if (t->left != NULL) 
-    inorder(t->left);
-  if (t->right != NULL) 
-    inorder(t->right);
-}
-void postorder(struct node *t) {
-  if (t->left != NULL) 
-    inorder(t->left);
-  if (t->right != NULL) 
-    inorder(t->right);
-  printf("%d, ", t->data);
 }
 
+void preorder(struct node *t) {
+  printf("%d, ", t->data);
+  if (t->left != NULL)
+	  preorder(t->left);
+  if (t->right != NULL)
+	  preorder(t->right);
+}
+
+void postorder(struct node *t) {
+  if (t->left != NULL)
+	  postorder(t->left);
+  if (t->right != NULL)
+	  postorder(t->right);
+  printf("%d, ", t->data);
+}
 
 
 
@@ -72,11 +68,6 @@ struct node *maxValueNode(struct node *node) {
 
   return current;
 }
-
-
-
-
-
 
 struct node *deleteNode(struct node *t, int data) {
   if (t == NULL) return t;
@@ -106,4 +97,21 @@ struct node *deleteNode(struct node *t, int data) {
 }
 
 
+struct node* search(struct node* t, int key)
+{
+	if (t == NULL || t->data == key)
+		return t;
+	if (t->data < key)
+		return search(t->right, key);
+	return search(t->left, key);
+}
 
+
+int arrayInorder(struct node *t, int arr[],int index){
+	if(t->left != NULL)
+		index = arrayInorder(t->left, arr, index);
+	arr[index++] = t->data;
+	if(t->right != NULL)
+		index = arrayInorder(t->right, arr, index);
+	return index;
+}
