@@ -7,7 +7,7 @@
     ->  length(arrADT); 
     ->  display(arrADT);
 
-### 2.  [Simple Lnked List](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Linked_List) <br>
+### 2.  [Simple Lnked List](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Simple%20Linked%20List) <br>
     ->  insert(head, data);
     ->  insertPos(head, pos, data);
     ->  insertLast(head, data);
