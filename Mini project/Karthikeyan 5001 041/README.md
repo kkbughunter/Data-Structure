@@ -1,10 +1,11 @@
 # Karthikeyan 
-
-
-## LeetCode
-1. [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
-2. [1290. Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
-3. [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+### Arrays
+1.  [The Great Run](https://www.codechef.com/problems/PROC18A?tab=statement) CodeChef
+2.  [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/) LeetCode
+### List
+1. [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) LeetCode
+2. [1290. Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) LeetCode
+3. [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) LeetCode
 
 
 
