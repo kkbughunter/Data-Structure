@@ -18,6 +18,17 @@ void insertFront(struct node *h, char c) {
     if(ptr!=NULL) ptr->lptr = temp;
 }
 
+void insertLast(struct node *h, char c) {
+    struct node *temp, *ptr=h;
+    temp = (struct node *)malloc(sizeof(struct node));
+    temp->data = c;
+    while(ptr->rptr != NULL)
+        ptr = ptr->rptr;
+    temp->rptr = ptr->rptr;
+    temp->lptr = ptr;
+    ptr->rptr = temp;
+}
+
 
 void displayItems(struct node *h) {
     struct node *ptr, *prev;
