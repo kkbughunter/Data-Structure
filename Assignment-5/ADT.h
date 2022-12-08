@@ -121,3 +121,39 @@ struct tree *delete(struct tree *t,int x)
     }
     return t;
 }
+// Online code 
+int height(struct tree* h)
+{
+    if (h == NULL)
+        return 0;
+    else {
+        int lheight = height(h->left);
+        int rheight = height(h->right);
+ 
+        if (lheight > rheight)
+            return (lheight + 1);
+        else
+            return (rheight + 1);
+    }
+}
+void printCurrentLevel(struct tree* h, int level)
+{
+    if (h == NULL)
+        return;
+    if (level == 1)
+        printf("%d ", h->data);
+    else if (level > 1) {
+        printCurrentLevel(h->left, level - 1);
+        printCurrentLevel(h->right, level - 1);
+    }
+}
+void levelOrder(struct tree* h)
+{
+    int hei = height(h);
+    int i,j=1;
+    for (i = 1; i <= hei; i++){
+        printf("\nLevel %d : ",j++);
+        printCurrentLevel(h,i);
+    }
+}
+// online code end.
