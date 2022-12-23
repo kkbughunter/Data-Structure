@@ -101,30 +101,14 @@ void appearscount(struct node1 *a, int key) {
 		
 		do{
 			if(a->arr[mid+i] == a->arr[mid] || a->size-1 < mid+i){
-				printf("increse if\n");
 				count++;
 			}
 			if(a->arr[mid-i] == a->arr[mid] || mid-i >= 0){
-				printf("decr if\n");
 				count++;
 			}
 			i+=1;
-			printf("%d coutn \n",i);
 		}while(a->arr[mid+i] == a->arr[mid] || a->arr[mid-i] == a->arr[mid]);
 
 		printf("\t%d is repeted %d times..\n\n",a->arr[mid],count+1);
 	}
 }  
-
-
-
-
-
-
-
-
-
-
-
-
-
