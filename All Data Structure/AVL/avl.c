@@ -4,7 +4,7 @@
 
 int main()
 {
-    struct avl *t;
+    struct avl *t=NULL;
     t = Insert(t, 10);
     t = Insert(t, 8);
     t = Insert(t, 9);
