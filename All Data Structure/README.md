@@ -40,10 +40,22 @@
     ->  display(head);
     ->  length(head);
 
+### 5.  [Stack using array implementation](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Stack%20using%20array%20implementation) <br>
+    ->  createStack(lim);
+    ->  push(S, data);
+    ->  pop(S);
+    ->  displayStack(S);
+    ->  gettop(S);
+    ->  isEmpty(S);
+    ->  isFill(S);
 
-
-
-
+### 6.  [Queue using array implementation](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Queue%20using%20array%20implementation) <br>
+    ->  createQueue(lim);
+    ->  enqueue(Q, data);
+    ->  dequeue(Q);
+    ->  displayQueue(Q);
+    ->  isEmpty(Q);
+    ->  isFill(Q);
 
 
 
