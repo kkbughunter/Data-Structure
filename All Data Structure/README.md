@@ -74,7 +74,7 @@
     ->  singleleft(T);
     ->  doubleright_left(T);
     
-### 8.  [Priarity_Queue or Min Heap](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/BSThttps://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/BST) <br>
+### 9.  [Priarity_Queue or Min Heap](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/BSThttps://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/BST) <br>
     ->  PriarityQueueCreate(T);
     ->  Insert(T, data);
     ->  delete(T);
