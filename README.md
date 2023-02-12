@@ -1,6 +1,6 @@
 # Data-Structure using C
 Graph and Sorting Algo : [link](https://github.com/KKBUGHUNTER/Data-Structure/blob/main/DS%20UNIT%204%2C5.pdf)
-## Assignment
+## LAB Assignment
 1.  [Assignment 1](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment%201)
 2.  [Assignment 2](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment%202)
 3.  [Assignment 3](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-3)
@@ -13,6 +13,15 @@ Graph and Sorting Algo : [link](https://github.com/KKBUGHUNTER/Data-Structure/bl
 10.  [Assignment 10](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-10)
 11.  [Assignment 11](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-11)
 12.  [Assignment 12](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-12)
+## Test
+1. Assessment 1 in Array, List, Stack & Queue (MCQ) 
+2. Assessment 2 in ALL Trees (MCQ)
+3. Assessment 3 in Binary Threaded Tree (MCQ with Self Study)
+4. Tutorial 1 in 
+5. Tutorial 2
+6. Tutorial 3
+7. Assessment  in Stack & Queue (Class Test - Algo Writing)
+8. Assessment  in Hash Table (Class Test - Algo Writing)
 ### Data Structures in Course
 # Linear Data Structure
 1.  [Array Data Structure](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Array%20Data%20Structure)  <br>
@@ -35,8 +44,8 @@ Graph and Sorting Algo : [link](https://github.com/KKBUGHUNTER/Data-Structure/bl
 13. [Hash Table](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/GRAPH%20Appliactions)<br>
     
 
-## Mini Project
-We have Done a Mini Project by **Solving CP Problems that related to above Data Structure.** 
+## Mini Project 
+We have Done a Mini Project by **Solving CP Problems that related to above Data Structure.** This is a kind of Team project.
 1. Karthikeyan
 2. Mega
 3. Irayanbu
