@@ -17,9 +17,9 @@ Graph and Sorting Algo : [link](https://github.com/KKBUGHUNTER/Data-Structure/bl
 1. Assessment 1 in Array, List, Stack & Queue (MCQ) 
 2. Assessment 2 in ALL Trees (MCQ)
 3. Assessment 3 in Binary Threaded Tree (MCQ with Self Study)
-4. Tutorial 1 in 
-5. Tutorial 2
-6. Tutorial 3
+4. [Tutorial 1](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Tutorial-1)
+5. [Tutorial 2](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Tutorial-2)
+6. [Tutorial 3](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Tutorial-3)
 7. Assessment  in Stack & Queue (Class Test - Algo Writing)
 8. Assessment  in Hash Table (Class Test - Algo Writing)
 ### Data Structures in Course
