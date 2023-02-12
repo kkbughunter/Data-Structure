@@ -1,7 +1,18 @@
 # Data-Structure using C
 Graph and Sorting Algo : [link](https://github.com/KKBUGHUNTER/Data-Structure/blob/main/DS%20UNIT%204%2C5.pdf)
 ## Assignment
-
+1.  [Assignment 1](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment%201)
+2.  [Assignment 2](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment%202)
+3.  [Assignment 3](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-3)
+4.  [Assignment 4](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-4)
+5.  [Assignment 5](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-5)
+6.  [Assignment 6](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-6)
+7.  [Assignment 7](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-7)
+8.  [Assignment 8](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-8)
+9.  [Assignment 9](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-9)
+10.  [Assignment 10](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-10)
+11.  [Assignment 11](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-11)
+12.  [Assignment 12](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-12)
 ### Data Structures in Course
 # Linear Data Structure
 1.  [Array Data Structure](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Array%20Data%20Structure)  <br>
@@ -17,8 +28,6 @@ Graph and Sorting Algo : [link](https://github.com/KKBUGHUNTER/Data-Structure/bl
 11. [Graph Algorithms](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/GRAPH%20Appliactions) <br>
      - Dijkstra(Shortest paths Algo)
      - Floyd–Warshall algorithms(All pair-Shortest paths Algo)
-          
-
 12. [Sorting](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/GRAPH%20Appliactions)
     - Insertion Sort
     - Shell Sort
@@ -26,7 +35,8 @@ Graph and Sorting Algo : [link](https://github.com/KKBUGHUNTER/Data-Structure/bl
 13. [Hash Table](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/GRAPH%20Appliactions)<br>
     
 
-### mini Project<br>
+## Mini Project
+We have Done a Mini Project by **Solving CP Problems that related to above Data Structure.** 
 1. Karthikeyan
 2. Mega
 3. Irayanbu
