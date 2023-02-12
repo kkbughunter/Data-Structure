@@ -1,18 +1,18 @@
 # Data-Structure using C
 Graph and Sorting Algo : [link](https://github.com/KKBUGHUNTER/Data-Structure/blob/main/DS%20UNIT%204%2C5.pdf)
 ## LAB Assignment
-1.  [Assignment 1](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment%201)
-2.  [Assignment 2](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment%202)
-3.  [Assignment 3](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-3)
-4.  [Assignment 4](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-4)
-5.  [Assignment 5](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-5)
-6.  [Assignment 6](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-6)
-7.  [Assignment 7](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-7)
-8.  [Assignment 8](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-8)
-9.  [Assignment 9](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-9)
-10.  [Assignment 10](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-10)
-11.  [Assignment 11](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-11)
-12.  [Assignment 12](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-12)
+1.  [Assignment 1](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment%201) Pointers & Array
+2.  [Assignment 2](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment%202) Linked List & **Applications**
+3.  [Assignment 3](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-3) Stack & **Applications**
+4.  [Assignment 4](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-4) Queue & **Applications**
+5.  [Assignment 5](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-5) BST & **Applications**
+6.  [Assignment 6](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-6) Double Linked List & **Applications**
+7.  [Assignment 7](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-7) AVL & **Applications**
+8.  [Assignment 8](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-8) Heap & **Applications**
+9.  [Assignment 9](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-9) BFS, DFS & **Applications**
+10.  [Assignment 10](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-10) dijsktras & **Applications**
+11.  [Assignment 11](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-11) Sorting & **Applications**
+12.  [Assignment 12](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-12) Hash Table & **Applications**
 ## Test
 1. Assessment 1 in Array, List, Stack & Queue (MCQ) 
 2. Assessment 2 in ALL Trees (MCQ)
