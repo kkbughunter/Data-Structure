@@ -87,4 +87,12 @@
     ->  DFS(G);
     
     
+### 11.  [Graph Algorithms](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/GRAPH%20Appliactions) <br>
+    ->  #### Dijkstra(Shortest paths Algo)
+    ->  dijkstra(G, src);
+    ->  printPath(G, table, des);
+    ->  displayTable(g, table);
+    ->  min(G, table, visit);
+    
+    
     
