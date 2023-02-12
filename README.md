@@ -22,8 +22,10 @@ Graph and Sorting Algo : [link](https://github.com/KKBUGHUNTER/Data-Structure/bl
 6. [Tutorial 3](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Tutorial-3)
 7. Assessment  in Stack & Queue (Class Test - Algo Writing)
 8. Assessment  in Hash Table (Class Test - Algo Writing)
-### Data Structures in Course
-# Linear Data Structure
+
+
+
+### List of Data Structure
 1.  [Array Data Structure](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Array%20Data%20Structure)  <br>
 2.  [Simple Lnked List](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Simple%20Linked%20List) <br>
 3.  [Circle Linked List](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Circular%20Linked%20List) <br>
@@ -49,3 +51,5 @@ We have Done a Mini Project by **Solving CP Problems that related to above Data 
 1. Karthikeyan
 2. Mega
 3. Irayanbu
+
+# ...Thank You...
