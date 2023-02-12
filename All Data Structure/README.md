@@ -57,5 +57,20 @@
     ->  isEmpty(Q);
     ->  isFill(Q);
 
+### 7.  [Binary Search Tree](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/BST) <br>
+    ->  insertBST(T, data);
+    ->  deleteBST(T);
+    ->  inorderBST(T);
+    ->  levelorderBST(T);
+    ->  findmax(T);
 
+### 8.  [Binary Search Tree]([https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/BST](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/BSThttps://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/BST) <br>
+    ->  Insert(T, data);
+    ->  delete(T);
+    ->  inorderBST(T);
+    ->  levelOrderTraversal(T);
+    ->  singleright(T);
+    ->  doubleleft_right(T);
+    ->  singleleft(T);
+    ->  doubleright_left(T);
 
