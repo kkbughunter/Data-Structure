@@ -14,11 +14,11 @@ Graph and Sorting Algo : [link](https://github.com/KKBUGHUNTER/Data-Structure/bl
 8.  [AVL Tree](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/AVL) <br>
 9.  [Priarity_Queue or Min Heap](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Priarity_Queue) <br>
 10. [Graph](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/GRAPH) <br>
-11. [Sorting](#)
-    . [Insertion Sort](#)
-    . [Shell Sort](#)
-    . [Radix Sort](#)
-12. [Hash Table](#)
+11. [Sorting](#)<br>
+    -> [Insertion Sort](#)<br>
+    -> [Shell Sort](#)<br>
+    -> [Radix Sort](#)<br>
+12. [Hash Table](#)<br>
     
 
 ### mini Project<br>
