@@ -14,6 +14,16 @@ Graph and Sorting Algo : [link](https://github.com/KKBUGHUNTER/Data-Structure/bl
 8.  [AVL Tree](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/AVL) <br>
 9.  [Priarity_Queue or Min Heap](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Priarity_Queue) <br>
 10. [Graph](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/GRAPH) <br>
+11. Graph Algorithms(https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/GRAPH%20Appliactions) <br>
+Dijkstra(Shortest paths Algo) <br>
+    ->  dijkstra(G, src); <br>
+    ->  printPath(G, table, des); <br>
+    ->  displayTable(g, table); <br>
+    ->  min(G, table, visit); <br>
+Floyd–Warshall algorithms(All pair-Shortest paths Algo) <br>
+    ->  Floyd_Warshall(G,tablel); <br>
+    ->  printPath(G, table, des); <br>
+    ->  display_Pre_Matrix(g, table); <br>
 11. [Sorting](#)<br>
     -> [Insertion Sort](#)<br>
     -> [Shell Sort](#)<br>
