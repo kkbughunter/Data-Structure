@@ -64,7 +64,7 @@
     ->  levelorderBST(T);
     ->  findmax(T);
 
-### 8.  [AVL Tree](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/BSThttps://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/BST) <br>
+### 8.  [AVL Tree](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/AVL) <br>
     ->  Insert(T, data);
     ->  delete(T);
     ->  inorderBST(T);
@@ -74,9 +74,17 @@
     ->  singleleft(T);
     ->  doubleright_left(T);
     
-### 9.  [Priarity_Queue or Min Heap](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/BSThttps://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/BST) <br>
+### 9.  [Priarity_Queue or Min Heap](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Priarity_Queue) <br>
     ->  PriarityQueueCreate(T);
     ->  Insert(T, data);
     ->  delete(T);
     ->  Display(T);
 
+### 10.  [Graph](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/GRAPH) <br>
+    ->  CreateGraph(G);
+    ->  displayadj(G);
+    ->  BFS(G);
+    ->  DFS(G);
+    
+    
+    
