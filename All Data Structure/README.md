@@ -88,11 +88,16 @@
     
     
 ### 11.  [Graph Algorithms](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/GRAPH%20Appliactions) <br>
-    ->  #### Dijkstra(Shortest paths Algo)
+#### Dijkstra(Shortest paths Algo)
     ->  dijkstra(G, src);
     ->  printPath(G, table, des);
     ->  displayTable(g, table);
     ->  min(G, table, visit);
+#### Floyd–Warshall algorithms(All pair-Shortest paths Algo)
+    ->  Floyd_Warshall(G,tablel);
+    ->  printPath(G, table, des);
+    ->  display_Pre_Matrix(g, table);
+    
     
     
     
