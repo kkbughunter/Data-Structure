@@ -9,7 +9,7 @@ Graph and Sorting Algo : [link](https://github.com/KKBUGHUNTER/Data-Structure/bl
 3.  [Circle Linked List](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Circular%20Linked%20List) <br>
 4.  [Double Linked List](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Double%20Linked%20List) <br>
 5.  [Stack using array implementation](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Stack%20using%20array%20implementation) <br>
-6.  [Queue using array implementation](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure
+6.  [Queue using array implementation](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure)<br>
 7.  [Binary Search Tree](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/BST) <br>
 8.  [AVL Tree](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/AVL) <br>
 9.  [Priarity_Queue or Min Heap](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/Priarity_Queue) <br>
