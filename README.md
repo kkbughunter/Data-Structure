@@ -1,6 +1,8 @@
-# Data-Structure using C
+# Data-Structure using C 
 Graph and Sorting Algo : [link](https://github.com/KKBUGHUNTER/Data-Structure/blob/main/DS%20UNIT%204%2C5.pdf)
-## LAB Assignment
+
+
+## Assignment
 1.  [Assignment 1](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment%201) Pointers & Array
 2.  [Assignment 2](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment%202) Linked List & **Applications**
 3.  [Assignment 3](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-3) Stack & **Applications**
@@ -13,6 +15,9 @@ Graph and Sorting Algo : [link](https://github.com/KKBUGHUNTER/Data-Structure/bl
 10.  [Assignment 10](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-10) dijsktras & **Applications**
 11.  [Assignment 11](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-11) Sorting & **Applications**
 12.  [Assignment 12](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/Assignment-12) Hash Table & **Applications**
+
+
+
 ## Test
 1. Assessment 1 in Array, List, Stack & Queue (MCQ) 
 2. Assessment 2 in ALL Trees (MCQ)
@@ -45,6 +50,7 @@ Graph and Sorting Algo : [link](https://github.com/KKBUGHUNTER/Data-Structure/bl
     - Radix Sort
 13. [Hash Table](https://github.com/KKBUGHUNTER/Data-Structure/tree/main/All%20Data%20Structure/GRAPH%20Appliactions)<br>
     
+
 
 ## Mini Project 
 We have Done a Mini Project by **Solving CP Problems that related to above Data Structure.** This is a kind of Team project.
